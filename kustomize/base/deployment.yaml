@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: devops-toolkit
-        image: vfarcic/devops-toolkit-series:latest
+        image: sharief212/devops-toolkit:1.0.4
         ports:
         - containerPort: 80
         livenessProbe:
@@ -33,4 +33,3 @@ spec:
           requests:
             cpu: 80m
             memory: 128Mi
-
